@@ -111,7 +111,7 @@ app.get('/', (_req, res) => {
     provider: 'AgenticLedger',
     version: VERSION,
     description:
-      'Granola Banking — accounts, transactions, recipients, payments, invoicing, and treasury operations through MCP tools.',
+      'Granola meeting notes — list, search, and read AI-summarized meeting notes, attendees, and full transcripts through MCP tools.',
     mcpEndpoint: '/mcp',
     transport: 'streamable-http',
     tools: tools.length,
